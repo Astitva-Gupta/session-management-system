@@ -1,0 +1,8 @@
+# ninja log v6
+9529	9676	7650579091282251	session-management.exe	9de1e7508c0cf3a8
+4	8898	7650578996101688	CMakeFiles/session-management.dir/src/main.cpp.obj	3e94d03b062c0e9b
+10	9528	7650578996161486	CMakeFiles/session-management.dir/src/SessionManager.cpp.obj	5bbd6e10e53890b5
+37	455	7651081371564294	build.ninja	e43197ae0b979775
+53	1530	7651081372652999	CMakeFiles/session-management.dir/src/main.cpp.obj	60830433dcd8c4ec
+57	2002	7651081372652999	CMakeFiles/session-management.dir/src/SessionManager.cpp.obj	ca6c7544356b79fb
+2003	2148	7651081392215213	session-management.exe	9de1e7508c0cf3a8
