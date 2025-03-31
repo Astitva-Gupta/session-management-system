@@ -40,10 +40,15 @@ After building, run the executable:
 ``` 
 ./session-management 
 ```
-##Example output
-Astitva Gupta@DESKTOP-SRMAJFV MINGW64 /c/my-mini-projects/session-management/build (master)
-Welcome to Session Management System!
-Enter your username: Astitva Gupta
+---
+
+## Example outputs
+
+### **Session Management**
+#### Creating a Session:
+Astitva Gupta@DESKTOP-SRMAJFV MINGW64 /c/my-mini-projects/session-management/build (master)  
+Welcome to Session Management System!  
+Enter your username: Astitva Gupta  
 
 ===== Session Management System =====
 1. Create a new session
@@ -54,11 +59,14 @@ Enter your username: Astitva Gupta
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 1
-Enter session name: SAT Gsoc Meeting
-Session created: SAT Gsoc Meeting at 127.0.0.1:76530
-Astitva Gupta joined session at 127.0.0.1:76530
+0. Exit  
+Choice: 1  
+Enter session name: SAT Gsoc Meeting  
+Session created: SAT Gsoc Meeting at 127.0.0.1:76530  
+Astitva Gupta joined session at 127.0.0.1:76530  
+
+
+#### Joining Participants:
 
 ===== Session Management System =====
 1. Create a new session
@@ -69,10 +77,13 @@ Astitva Gupta joined session at 127.0.0.1:76530
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 2
-Enter session link: 127.0.0.1:76530
-Warning: Astitva Gupta is already in the session!
+0. Exit  
+Choice: 2  
+Enter session link: 127.0.0.1:76530  
+Warning: Astitva Gupta is already in the session!  
+
+
+#### Leaving Participants:
 
 ===== Session Management System =====
 1. Create a new session
@@ -83,9 +94,12 @@ Warning: Astitva Gupta is already in the session!
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 3
-Astitva Gupta left session at 127.0.0.1:76530
+0. Exit  
+Choice: 3  
+Astitva Gupta left session at 127.0.0.1:76530  
+
+
+#### Rejoining Participants:
 
 ===== Session Management System =====
 1. Create a new session
@@ -96,10 +110,14 @@ Astitva Gupta left session at 127.0.0.1:76530
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 2
-Enter session link: 127.0.0.1:76530
-Astitva Gupta joined session at 127.0.0.1:76530
+0. Exit  
+Choice: 2  
+Enter session link: 127.0.0.1:76530  
+Astitva Gupta joined session at 127.0.0.1:76530  
+
+---
+### **Chat System**
+#### Sending Messages:
 
 ===== Session Management System =====
 1. Create a new session
@@ -110,10 +128,13 @@ Astitva Gupta joined session at 127.0.0.1:76530
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 4
-Enter your message: Hi SAT mentors
-Message sent by Astitva Gupta in session at 127.0.0.1:76530
+0. Exit  
+Choice: 4  
+Enter your message: Hi SAT mentors  
+Message sent by Astitva Gupta in session at 127.0.0.1:76530  
+
+
+#### Viewing Chat History:
 
 ===== Session Management System =====
 1. Create a new session
@@ -124,16 +145,19 @@ Message sent by Astitva Gupta in session at 127.0.0.1:76530
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 5
-Session State: 'SAT Gsoc Meeting' (Created: 2025-03-31 14:39:04)
-Participants:
-  - Astitva Gupta
-Chat History:
-  [14:39:04] Astitva Gupta has joined the session.
-  [14:39:43] Astitva Gupta has left the session.
-  [14:40:03] Astitva Gupta has joined the session.
-  [14:40:16] Astitva Gupta: Hi SAT mentors
+0. Exit  
+Choice: 5  
+Session State: 'SAT Gsoc Meeting' (Created: 2025-03-31 14:39:04)  
+Participants:  
+  - Astitva Gupta  
+Chat History:  
+  [14:39:04] Astitva Gupta has joined the session.  
+  [14:39:43] Astitva Gupta has left the session.  
+  [14:40:03] Astitva Gupta has joined the session.  
+  [14:40:16] Astitva Gupta: Hi SAT mentors  
+
+
+#### Listing All Sessions:
 
 ===== Session Management System =====
 1. Create a new session
@@ -144,10 +168,15 @@ Chat History:
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
+0. Exit  
 Choice: 6
-Active Sessions:
-- 'SAT Gsoc Meeting' at 127.0.0.1:76530 (1 participants)
+Active Sessions:  
+- 'SAT Gsoc Meeting' at 127.0.0.1:76530 (1 participants)  
+
+---
+
+### **Persistent Storage**
+#### Saving Sessions to File:
 
 ===== Session Management System =====
 1. Create a new session
@@ -158,10 +187,13 @@ Active Sessions:
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 7
-Enter filename to save: ExampleOutput1
-Sessions saved to file: ExampleOutput1
+0. Exit  
+Choice: 7  
+Enter filename to save: ExampleOutput1  
+Sessions saved to file: ExampleOutput1  
+
+
+#### Loading Sessions from File:
 
 ===== Session Management System =====
 1. Create a new session
@@ -172,10 +204,10 @@ Sessions saved to file: ExampleOutput1
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 8
-Enter filename to load: ExampleOutput1
-Sessions loaded from file: ExampleOutput1
+0. Exit  
+Choice: 8  
+Enter filename to load: ExampleOutput1  
+Sessions loaded from file: ExampleOutput1  
 
 ===== Session Management System =====
 1. Create a new session
@@ -186,16 +218,16 @@ Sessions loaded from file: ExampleOutput1
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 5
-Session State: 'SAT Gsoc Meeting' (Created: 2025-03-31 14:39:04)
-Participants:
-  - Astitva Gupta
-Chat History:
-  [14:39:04] Astitva Gupta has joined the session.
-  [14:39:43] Astitva Gupta has left the session.
-  [14:40:03] Astitva Gupta has joined the session.
-  [14:40:16] Astitva Gupta: Hi SAT mentors
+0. Exit  
+Choice: 5  
+Session State: 'SAT Gsoc Meeting' (Created: 2025-03-31 14:39:04)  
+Participants:  
+  - Astitva Gupta  
+Chat History:  
+  [14:39:04] Astitva Gupta has joined the session.  
+  [14:39:43] Astitva Gupta has left the session.  
+  [14:40:03] Astitva Gupta has joined the session.  
+  [14:40:16] Astitva Gupta: Hi SAT mentors  
 
 ===== Session Management System =====
 1. Create a new session
@@ -206,6 +238,6 @@ Chat History:
 6. List all sessions
 7. Save sessions to file
 8. Load sessions from file
-0. Exit
-Choice: 0
-Thank you for using Session Management System!
+0. Exit  
+Choice: 0  
+Thank you for using Session Management System!  
